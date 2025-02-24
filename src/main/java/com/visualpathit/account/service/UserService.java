@@ -13,4 +13,6 @@ public interface UserService {
     User findById(long id);
     /*public void updateUser(User user);*/
     public List <User> getList();
+	    public List <User> getLists();
+
 }
